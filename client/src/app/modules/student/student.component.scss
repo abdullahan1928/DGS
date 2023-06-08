@@ -1,0 +1,98 @@
+.heading {
+    padding: 20px;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+        text-decoration: none;
+        color: #3f51b5;
+        font-size: 24px;
+        font-weight: 400;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+.student-table {
+    margin: 10px 20px;
+
+    table {
+        width: 100%;
+        padding: 20px;
+
+        th {
+            text-transform: capitalize;
+        }
+
+        td {
+
+            .cellAction {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+
+                .viewButton {
+                    padding: 2px 5px;
+                    border-radius: 5px;
+                    color: darkblue;
+                }
+
+                .editButton {
+                    padding: 2px 5px;
+                    border-radius: 5px;
+                    color: green;
+                }
+
+                .deleteButton {
+                    padding: 2px 5px;
+                    border-radius: 5px;
+                    color: crimson;
+                }
+            }
+        }
+    }
+}
+
+.btn1 {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: #448aff;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.btn1:hover {
+    background: rgb(56, 79, 229);
+    text-decoration: none;
+    transition: background 0.5s;
+}
+
+.filters {
+    margin: 20px;
+
+    .form-fields {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        mat-form-field {
+            width: 40%;
+        }
+    }
+
+    .filters-btn {
+        display: flex;
+    }
+}

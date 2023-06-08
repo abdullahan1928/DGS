@@ -1,0 +1,17 @@
+.card-container {
+
+    mat-card-title {
+        text-align: center;
+    }
+
+    div {
+        display: flex;
+
+        mat-card-content {
+
+            .key {
+                text-transform: capitalize;
+            }
+        }
+    }
+}
